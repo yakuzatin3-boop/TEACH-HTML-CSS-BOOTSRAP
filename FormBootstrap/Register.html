@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    
+    
+  </head>
+  <body>
+    <h1 class="text-danger text-center fs-1">
+      <i><u>Create User Input Form</u></i>
+    </h1>
+
+    <div class="container mt-5">
+      <form
+        action="/register"
+        method="post"
+        class="w-50 m-auto rounded-3 form shadow border-1 p-5"
+      >
+      <h1 class="text-center text-primary-emphasis fw-bold"><i>Register</i></h1>
+
+      <label class="fs-5 fw-bold text-danger form-label">Enter Email : </label>
+      
+      <div class="input-group">
+        <span class="input-group-text">
+          <i class="bi bi-envelope-at-fill"></i>
+        </span>
+        <input type="email" name="email" required class="form-control w-12" placeholder="Enter Your Email">
+      </div>
+
+    </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
