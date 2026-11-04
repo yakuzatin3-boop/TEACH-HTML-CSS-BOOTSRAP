@@ -28,13 +28,35 @@
       <h1 class="text-center text-primary-emphasis fw-bold"><i>Register</i></h1>
 
       <label class="fs-5 fw-bold text-danger form-label">Enter Email : </label>
-      
-      <div class="input-group">
+
+      <div class="input-group mb-3">
         <span class="input-group-text">
           <i class="bi bi-envelope-at-fill"></i>
         </span>
         <input type="email" name="email" required class="form-control w-12" placeholder="Enter Your Email">
       </div>
+
+      <label class="form-label fs-5 fw-bold text-danger">
+        Enter Password :
+      </label>
+      <div class="input-group mb-3">
+        <span class="input-group-text">
+          <i class="bi bi-eye-fill"></i>
+        </span>
+        <input type="password" name="password" class="form-control">
+      </div>
+
+      <label class="form-label fs-5 fw-bold text-danger">
+        Confirm Password :
+      </label>
+      <div class="input-group">
+        <span class="input-group-text">
+          <i class="bi bi-eye-fill"></i>
+        </span>
+        <input type="password" name="confirm_password" class="form-control" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary mt-4 form-control" >Register</button>
 
     </form>
     </div>
