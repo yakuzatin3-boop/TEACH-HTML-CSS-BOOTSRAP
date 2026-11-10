@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
+    <style>
+        .sidebar{
+            width: 15%;
+            height: 100vh;
+        }
+        .main-content{
+            width: 85%;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class=" d-flex min-vw-100 gap-3">
+        <!-- sidebar -->
+        <div class="sidebar p-4 bg-dark bg-opacity-50 rounded-3 ">
+            <div class="d-flex gap-1">
+                <img class="w-25 rounded-circle" src="https://i.pinimg.com/736x/02/09/7b/02097b55e60b331def3f820870d619de.jpg" alt="">
+                <div>
+                    <span class="fs-6 text-danger ">Admin Dashboard</span>
+                    <span class="text-white">TechShop</span>
+                </div>
+            </div>
+            <br> <br>  
+            <ul class="list-unstyled text-start">
+                <li>
+                    <button class="btn btn-danger fs-4 text-start btn-outline-primary border-0 text-white fw-bold w-100"><i class=" bi bi-speedometer2"></i> Dashboard</button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 text-start mt-3 btn-outline-danger border-0 text-white fw-bold w-100">
+                       <i class="bi bi-box-seam-fill"></i> Product
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 mt-3 text-start btn-outline-danger border-0 text-white fw-bold w-100">
+                        <i class="bi bi-award-fill"></i>
+                        Brand
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 mt-3 text-start btn-outline-danger border-0 text-white fw-bold w-100">
+                        <i class="bi bi-tags-fill"></i>
+                        Category
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 mt-3 text-start btn-outline-danger border-0 text-white fw-bold w-100 ">
+                        <i class="bi bi-grid-1x2-fill"></i>
+                        Card</button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 mt-3 text-start btn-outline-danger border-0 text-white fw-bold w-100">
+                        <i class="bi bi-credit-card-fill"></i>
+                        Payment</button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 mt-3 text-start btn-outline-danger border-0 text-white fw-bold w-100">
+                        <i class="bi bi-people-fill"></i>
+                        User
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 mt-3 text-start btn-outline-danger border-0 text-white fw-bold w-100">
+                        <i class="bi bi-box-arrow-right"></i>
+                        Logout</button>
+                </li>
+                <li>
+                    <button class="btn btn-primary fs-5 mt-3 text-start btn-outline-danger border-0 text-white fw-bold w-100">
+                        <i class="bi bi-gear-fill"></i>
+                        Setting</button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- main -->
+         <div class="main-content p-4 bg-dark rounded-4 m-2 ">
+
+            <div class="d-flex justify-content-between p-2 bg-secondary align-items-center rounded-5">
+                <div class="w-25">
+                    <input type="text" class="form-control w-100 rounded-5" placeholder="SearchBar......." name="search" id="">
+                </div>
+                <!-- profile -->
+                <div class="d-flex align-items-center gap-4">
+                    <!-- email -->
+                     <div class="d-flex gap-3">
+                        <button class="btn btn-light rounded-circle"><i class="bi bi-envelope-at-fill"></i></button>
+                        <button class="btn btn-light rounded-circle"><i class="bi bi-bell-fill"></i></button>
+                     </div>
+                     <!-- image  -->
+                    <div class="d-flex gap-2 align-items-center">
+                    <div>
+                        <img class="rounded-circle" width="60px" src="https://i.pinimg.com/736x/a5/f8/a6/a5f8a6d6c02976d90365c20c3cfb8a9c.jpg" alt="">
+                    </div>
+                    <div>
+                        <b class="text-primary-emphasis"><i>Team Spidermen CG</i></b><br>
+                        <span>spidermen007@gmail.com</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center bg-secondary mt-4 p-2 rounded-5">
+
+                <div>
+                    <h1 class="text-light d-flex gap-2"> <i class="text-danger bi bi-box-seam-fill"></i><i>Product Controller</i></h1>
+                    <p><i>Manage, Control, Edite, access aome of feature in products.</i></p>
+                </div>
+
+                <div>
+
+                    <button class="btn btn-primary fw-bold fs-5">Create Product</button>
+
+                </div>
+
+            </div>
+
+         </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
